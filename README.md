@@ -3,7 +3,6 @@ Experimenting with alternative interface design using an Arduino and a work glov
 
 ![GLOVE Animated Logo](AnimatedLogo.gif)
 
-
 ## LCD Screen Pages
 
 ![GLOVE Welcome](images/welcome.jpeg)
@@ -35,12 +34,27 @@ It could also be beneficial to provide access to the user's calendar to remind t
 
 ## Menu Navigation
 
-![GLOVE Page Navigation](menu.gif)
+![GLOVE Page Navigation](https://media.giphy.com/media/H7lsme6jIfvdvkTIBS/giphy.gif)
 
-To navigate to a different page, the wearer can use their thumb to tap until they get to the page that they are looking for. This feature works well dur to the interrupt that I set for the button. 
+To navigate to a different page, the wearer can use their thumb to tap until they get to the page that they are looking for. This feature works well due to the interrupt that I set for the button. 
 
 ## Power Button
 
-![GLOVE Page Navigation](Power.gif)
+![GLOVE Page Navigation](https://media.giphy.com/media/mBefXPKR1n9dOyxih0/giphy.gif)
 
 To turn the LCD screen attached to the GLOVE off, one must make a fist and bumb the side of their hand to the table. This presses a button that changes the state of the device.
+
+## Fabrication Method
+
+To adhere the sensors and LCD screen to the glove, I sewed a few loops through the glove and the holes in each board. This method works really well for rapid prototyping as the strings could easily be cut without damaging the glove if I needed to move any of the sensors. I found that sewing through the board at least 3 times was good enough to hold that corner in place.
+
+## Materials List
+
+![Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3)
+![Grove Base Shield V2](http://wiki.seeedstudio.com/Base_Shield_V2/)
+![Grove Touch Sensor](http://wiki.seeedstudio.com/Grove-Touch_Sensor/)
+![Grove Button](http://wiki.seeedstudio.com/Grove-Button/)
+![Grove RGB Backlight LCD Screen](http://wiki.seeedstudio.com/Grove-LCD_RGB_Backlight/)
+
+#### Thanks!
+Thank you to the Olin College Library for the Grove Arduino kit and the Principles of Engineering course for giving me the confidence to make my own Arduino projects.

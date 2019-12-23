@@ -15,15 +15,15 @@ For this project, I used the Grove RGB Backlit LCD Screen and an Arduino Uno to 
 
 ![GLOVE Welcome](images/Time.jpeg)
 
-An additional part would be needed to give an accurate date and time. This part is called an Real Time Calculator and can be added on to the pins of the Arduino. 
+An additional part is be needed to display the accurate date and time. This part is called an Real Time Clock and can be added on to the pins of the Arduino. 
 
 ### Weather
 
-This feature could easily be implemented with an internet connected Raspberry Pi and the Python weather API as well. For a more complex demo, did experiement a bit with the temperature senesor, but this would be less helpful in determining the outside temperature. 
+This feature could be implemented with a wifi connections and a weather API. I did experiement a bit with an Arduino temperature senesor, but this would not be helpful in determining the outside temperature. 
 
 ### Messages
 
-Similar to a smartwatch, it could be useful to have notifications appear on the GLOVE. 
+Similar to a smartwatch, it could be useful to have notifications appear on the back of the GLOVE. There would be less of a need for a haptic or auditory alert for notifications if they are displayed on the back of the hand, becasuse you would be able to see the screen change if you were typing when the notification occured. 
 
 ### Calendar
 
@@ -36,17 +36,17 @@ It could also be beneficial to provide access to the user's calendar to remind t
 
 ![GLOVE Page Navigation](https://media.giphy.com/media/H7lsme6jIfvdvkTIBS/giphy.gif)
 
-To navigate to a different page, the wearer can use their thumb to tap until they get to the page that they are looking for. This feature works well due to the interrupt that I set for the button. 
+To navigate to a different page, the wearer can use their thumb to tap their pointer finger until they get to the page that they are looking for. This feature works well due to an interrupt and a debouncer that I set for the button. 
 
 ## Power Button
 
 ![GLOVE Power Off](https://media.giphy.com/media/mBefXPKR1n9dOyxih0/giphy.gif)
 
-To turn the LCD screen attached to the GLOVE off, one must make a fist and bumb the side of their hand to the table. This presses a button that changes the state of the device.
+To turn off the LCD screen attached to the GLOVE, one must make a fist and bumb the side of their hand to the table. This presses a button that changes the state of the device. It is a very fun and satisfying mechanic to power the device off. 
 
 ## Fabrication Method
 
-To adhere the sensors and LCD screen to the glove, I sewed a few loops through the glove and the holes in each board. This method works really well for rapid prototyping as the strings could easily be cut without damaging the glove if I needed to move any of the sensors. I found that sewing through the board at least 3 times was good enough to hold that corner in place.
+To adhere the sensors and LCD screen to the glove, I sewed a few loops through the glove and the holes in each board. This method works really well for rapid prototyping as the strings could easily be cut without damaging the glove if I needed to move any of the sensors. I found that sewing through the board at least 3 times was good enough to hold the board in place.
 
 ## Materials List
 
